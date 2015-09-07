@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/heaven"/>
+	<classpathentry kind="src" path="/heaven-core"/>
+	<classpathentry kind="src" path="/heaven-commons"/>
+	<classpathentry kind="src" path="/csparql-core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/csparql-cep-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/csparql-cep-esper"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/csparql-common"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/csparql-sparql-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/csparql-sparql-jena"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/csparql-sparql-sesame"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
